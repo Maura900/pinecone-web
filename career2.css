@@ -1,0 +1,98 @@
+.testSection h2 {font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+letter-spacing: -0.03em;
+color: #1D3444;}
+.Jobs {display:flex;
+justify-content: space-between;
+margin-bottom: 50px;}
+.jobLeft {width: 63%;}
+.jobRight {width: 30%;}
+.Jobs p {font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #5B5B5B;
+width: 80%;}
+.Jobs h3 {font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.03em;
+color: #0D1317;}
+.detailSection .container {
+display: flex;
+justify-content: space-between;
+background: rgba(193, 228, 255, 0.3);
+border-radius: 20px;
+padding: 68px;}
+.detailSection ul {list-style: none;
+width: 30%;}
+.detailSection ul li {font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.03em;
+color: #0D1317;
+margin-bottom: 38px;
+}
+.detailSection .orange {font-weight: 600;
+font-size: 24px;
+line-height: 108.5%;
+color: #F58A07;}
+.detail {width: 90%;}
+.detail p {font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #5B5B5B;
+margin-top: 0;
+margin-bottom: 0;
+width: 90%;}
+.detail .separate p {font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #5b5b5b;
+margin-top: 30px;}
+.applySection h2 {font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.03em;
+color: #0D1317;
+margin-bottom: 50px;}
+.applySection form {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+form input {background: rgba(210, 218, 237, 0.17);
+border-radius: 27px;
+width: 49%;
+padding: 13px 26px;
+margin-bottom:20px;
+border: none;}
+form textarea {width: 100%;
+border: none;
+background: rgba(210, 218, 237, 0.17);
+border-radius: 27px;
+padding: 30px 35px;
+height: 215px;
+margin-bottom: 30px;
+}
+.submitButton {background: #f58a07;
+border-radius: 27px;
+width: 119px;
+height: 54px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 90px;}
+.submitButton a {font-weight: 600;
+font-size: 16px;
+line-height: 106.5%;
+color: #FFFFFF;}
+form input::placeholder {font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #9C9C9C;}
+form textarea::placeholder {font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #9C9C9C;}
+.applySection {padding: 100px;}
+
+
