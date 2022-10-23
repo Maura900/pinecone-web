@@ -1,0 +1,129 @@
+/* Contact Section  */
+.contactSection .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactSection {
+    padding: 64px;
+}
+
+.contactLeft {
+    width: 45%;
+}
+
+.contactRight {
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactLeft h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+
+.contactLeft p {
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-top: 0;
+}
+
+.loaction {
+    width: 45%;
+}
+
+.cont {
+    width: 45%;
+}
+
+.contactRight h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.contactRight p {
+    line-height: 30px;
+    color: #5B5B5B;
+    width: 70%;
+}
+
+.contactRight ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-bottom: 5px;
+}
+/* Last Section  */
+.lastSection .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 44%;
+}
+
+.map {
+    width: 50%;
+}
+
+form input {
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 13px 26px;
+    border: none;
+    margin-bottom: 20px;
+    width: 605px;
+    height: 54px;
+}
+
+form textarea {
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    width: 605px;
+    height: 160px;
+    border: none;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+form textarea::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+
+form input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+
+.map img {
+    width: 620px;
+    height: 370px;
+    border-radius: 20px;
+}
+
+.submitButton {
+    background: #f58a07;
+    border-radius: 27px;
+    width: 119px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

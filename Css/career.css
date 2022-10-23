@@ -1,0 +1,92 @@
+/* Top Section  */
+.TopSection .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topText h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+
+.topText {
+    width: 50%;
+}
+
+.topText p {
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.career-img {
+    width: 616px;
+    height: 650px;
+    background: url(../images/car.png);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.career-blend {
+    width: 180px;
+    height: 650px;
+    background-color: #f58a07;
+    border-radius: 19px 0 0 20px;
+    mix-blend-mode: multiply;
+}
+
+/* Career Section  */
+.careerSection h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 80px;
+}
+
+.careerSection h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 10px;
+}
+
+.careerSection p {
+    line-height: 28px;
+    color: #394149;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.careerSection a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+.careerSection .careerPosition article a:hover {color:black;}
+
+.careerPosition article {
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    width: 400px;
+    height: 181px;
+    padding: 13px 23px;
+}
+
+.careerPosition {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.careerSection {
+    padding-bottom: 100px;
+}

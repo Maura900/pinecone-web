@@ -1,11 +1,8 @@
-section {
-  margin: 90px 0;
-}
-
+   /* First Section */
 .firstSection {
   width: 100%;
   background: #dceaf5;
-  height: 100%;
+  height:703px;
   margin-top: 0;
 }
 
@@ -13,28 +10,28 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .box {
   width: 45%;
 }
+.flex {display: flex;
+  flex-direction: column;
+  height: 42%;
+  justify-content: space-around;}
 
 .box h2 {
   font-size: 64px;
   line-height: 72px;
   letter-spacing: -0.03em;
   font-weight: 600;
-  margin-bottom: 15px;
-  margin-top: 0;
   color: #1D3444;
 }
 
 .box p {
-  font-size: 18px;
-  font-weight: 500;
   line-height: 30px;
   color: rgba(91, 91, 91, 1);
-  margin-bottom: 27px;
 }
 
 .firstButton {
@@ -73,7 +70,6 @@ section {
 
 .logos p {
   font-weight: 400;
-  font-size: 18px;
   margin-bottom: 20px;
   color: #394149;
   opacity: 0.5;
@@ -93,7 +89,7 @@ section {
 .imgWrapper img {
   width: 110%;
 }
-
+/* Help Section  */
 .helpSection h2 {
   font-size: 48px;
   font-weight: 600;
@@ -103,7 +99,6 @@ section {
 }
 
 .helpSection p {
-  font-size: 18px;
   line-height: 30px;
   color: #5b5b5b;
   width: 49%;
@@ -152,10 +147,8 @@ section {
 }
 
 .helpSection .container p {
-  font-weight: 500;
   line-height: 30px;
   color: #5b5b5b;
-  font-size: 18px;
   width: 60%;
   margin-bottom: 60px;
   margin-top: 30px;
@@ -169,10 +162,6 @@ section {
   width: 100%;
 }
 
-.helpPosts:last-child {
-  margin-right: 0;
-}
-
 .helpSection h3 {
   font-size: 1.5rem;
   line-height: 25.56px;
@@ -184,18 +173,18 @@ section {
 .button2 {
   margin-bottom: 80px;
 }
-
+/* Feature Section  */
 .sectionTitle {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 64px;
-  justify-content: start
 }
 
 .featuresSection {
   background: #edf7ff;
-  padding: 90px 0;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .sectionTitle h2 {
@@ -203,11 +192,11 @@ section {
   font-weight: 600;
   line-height: 44px;
   letter-spacing: -0.03em;
-  width: 45%;
+  width: 47%;
+  padding-bottom: 80px;
 }
 
 .sectionTitle p {
-  font-size: 18px;
   line-height: 30px;
   width: 50%;
 }
@@ -225,10 +214,8 @@ p {
 
 .cardBox article {
   background-color: white;
-  width: 33%;
+  width: 30%;
   border-radius: 20px;
-  margin-right: 45px;
-  /* display:flex;  */
   padding: 33px;
 }
 
@@ -243,7 +230,7 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
-
+/* About Section  */
 .sectionTitle2 {
   width: 48%;
 }
@@ -253,7 +240,6 @@ p {
   font-weight: 600;
   line-height: 56px;
   letter-spacing: -0.03em;
-  margin-top: 100px;
 }
 
 .sectionTitle2 p {
@@ -289,7 +275,7 @@ p {
 
 .aboutImage {
   width: 48%;
-  background: url(./images/about-image.png);
+  background: url(../images/about-image.png);
   border-radius: 20px;
 }
 
@@ -315,12 +301,12 @@ p {
   height: 670px;
   border-radius: 20px 0 0 20px;
 }
-
+/* Service Section  */
 .serviceTabs {
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin-bottom: 75px;
+  flex-wrap: wrap;
 }
 
 .tab1 {
@@ -328,11 +314,7 @@ p {
   background: white;
   border: solid white 1px;
   border-radius: 31px;
-  width: 194px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 8px 24px;
 }
 
 .tab2 {
@@ -341,31 +323,18 @@ p {
   line-height: 24px;
   border: solid rgba(168, 188, 204, 1) 1px;
   border-radius: 31px;
-  width: 155px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.tab3 {
-  color: rgba(6, 50, 85, .3);
-  font-weight: 600;
-  line-height: 24px;
-  border: solid rgba(168, 188, 204, 1) 1px;
-  border-radius: 31px;
-  width: 183px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 8px 24px;
 }
 
 .serviceSection .container {
-  background: #edf7ff;
-  border-radius: 20px;
-  padding: 50px;
   position: relative;
+  background-color: #edf7ff;
+  border-radius: 20px;
+  padding: 48px;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .serviceSection .ribbon {
@@ -383,7 +352,6 @@ p {
 }
 
 .serviceText p {
-  font-size: 18px;
   line-height: 30px;
   color: #5b5b5b;
   width: 100%;
@@ -406,7 +374,7 @@ p {
 
 .serviceSection .serviceImage {
   width: 45%;
-  background: url(./images/team.png);
+  background: url(../images/team.png);
   background-repeat: no-repeat;
 }
 
@@ -416,10 +384,6 @@ p {
   width: 100%;
 }
 
-.serviceSection {
-  padding-bottom: 100px;
-}
-
 .mix2 {
   background: #f58a07;
   mix-blend-mode: multiply;
@@ -427,7 +391,7 @@ p {
   height: 466px;
   border-radius: 20px 0 0 20px;
 }
-
+/* Cta Section  */
 .ctaSection {
   display: flex;
   height: 518px;
@@ -435,22 +399,17 @@ p {
 
 .ctaImage {
   width: 100%;
-  height: 518px;
-  background: url(./images/experience-image.png);
+  background: url(../images/experience-image.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ctaText {
-  width: 100%;
-  max-width: 100%;
-  min-width: 320px;
+  width: 80%;
   background: #f58a07;
-  padding: 128px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 118px;
   justify-content: center;
+  align-items: center;
 }
 
 .ctaText h2 {
@@ -473,7 +432,7 @@ p {
   color: #f58a07;
 
 }
-
+/* Video Section  */
 .videoSection .container {
   display: flex;
   justify-content: space-between;
@@ -522,7 +481,7 @@ p {
   display: flex;
   align-items: end;
   height: 500px;
-  background: url(./images/video-image.png);
+  background: url(../images/video-image.png);
   padding: 30px;
 }
 
@@ -551,7 +510,7 @@ p {
   align-items: center;
   /* margin: 30px; */
 }
-
+/* Lastest Section  */
 .latestSection {
   background: #edf7ff;
   padding: 90px 0;
