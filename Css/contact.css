@@ -113,7 +113,7 @@ form input::placeholder {
     color: #9C9C9C;
 }
 
-.map img {
+iframe {
     width: 620px;
     height: 370px;
     border-radius: 20px;
