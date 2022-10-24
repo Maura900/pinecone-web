@@ -65,7 +65,10 @@ header ul li {
     line-height: 24px;
     
 }
-
+header nav ul li a:hover {
+  color: #f58a07;
+  }
+  
 a {
     text-decoration: none;
     color: black;
