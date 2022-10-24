@@ -63,7 +63,7 @@ header ul li {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #394149;
+    
 }
 
 a {
@@ -73,6 +73,7 @@ a {
 
 header ul li a {
     font-weight: 500;
+    color: #394149;
 }
 
 .navbarButton {
@@ -98,12 +99,11 @@ footer {
     position: relative;
     padding: 80px 0;
 }
-
 .footerTop {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .footerBottom {
@@ -147,13 +147,12 @@ footer {
 .footerTop ul {
     color: white;
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     padding-left: 0;
 }
 
 .footerTop ul li {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .footerTop ul li a {
@@ -251,3 +250,4 @@ footer .shape-2 {
     left: 0;
     bottom: 0;
 }
+.latestSection {margin-bottom: 0;}
