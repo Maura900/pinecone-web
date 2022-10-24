@@ -82,7 +82,7 @@
 
 .imgWrapper {
   width: 50%;
-  height: 615px;
+  height: 90vh;
   display: flex;
   align-self: flex-end;
 }
